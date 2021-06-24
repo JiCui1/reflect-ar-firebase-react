@@ -1,14 +1,14 @@
 import React from 'react' 
 import SignedInLinks from './SignedinLinks'
 import NavLeft from './NavLeft'
+import SignedOutLinks from './SignedOutLinks'
 
 const NavBar=()=>{
     return(
-        <nav className="nav-wrapper white darken-3">
-            <div className="container">
+        <nav className="nav-home">
                 <NavLeft />
                 <SignedInLinks />
-            </div>
+                {/* <SignedOutLinks /> */}
         </nav>
     )
 }
